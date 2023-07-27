@@ -13,12 +13,14 @@
         .column {flex: 25%;max-width: 25%;padding: 0 4px;}
         .column img {vertical-align: middle;overflow: hidden;margin-top: 8px;margin-bottom: 8px;max-height: fit-content;}
         .column img:hover {transform: scale(2.0);transition: 2s ease-in;border-radius: 50%;}
-        .column img {animation-name: text1;animation-duration: 4s;animation-timing-function: ease-in-out;animation-iteration-count: 2;}
+        .column img {animation-name: text1;animation-duration: 4s;animation-timing-function: ease-in-out;animation-iteration-count: 2;}/*the animation effect,
+        name,duration,function,count*/
 
         .Date {text-align: center;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;cursor:pointer;}
         
 
         @keyframes text1 {0%{transform:translate(-100%,-100%)} 50%{transform: rotate(180deg);} 100%{transform: rotate(360deg);}}
+        /*the effect in the timing of the animation */
 
 
         @media screen and (max-width:800px) {.column {flex: 50%;max-width: 50%;}}
