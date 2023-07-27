@@ -8,4 +8,5 @@ There are included but are not limited:<br>
 @keyframes text1 {<br>
                    0%{transform:translate(-100%,-100%)}<br>
                   50%{transform:rotate(180deg)}<br>
-                 100%{transform:rotate(360deg)}}<br>
+                 100%{transform:rotate(360deg)}<br>
+                 }<br>
