@@ -6,7 +6,7 @@ There are included but are not limited:<br>
             animation-timimg-function:ease-in-out;
             anumation-iteration-count:2;}<br>
 @keyframes text1 {<br>
-                   0%{transform:translate(-100%,-100%)}<br>
-                  50%{transform:rotate(180deg)}<br>
-                 100%{transform:rotate(360deg)}<br>
+                   0%{transform:translate(-100%,-100%)}<br>/postion:left100%,top100%/
+                  50%{transform:rotate(180deg)}<br>/to ratate 180deg during the half of time./
+                 100%{transform:rotate(360deg)}<br>/to ratate 360deg in time out./
                  }<br>
