@@ -1,9 +1,9 @@
 # flexboxtraining2
 This project is added new items by following the flexboxtraining.<br>
 There are included but are not limited:<br>
-.class img {animation-name:text1;
-            animation-duration:4s;
-            animation-timimg-function:ease-in-out;
+.class img {animation-name:text1;<br>
+            animation-duration:4s;<br>
+            animation-timimg-function:ease-in-out;<br>
             anumation-iteration-count:2;}<br>
 @keyframes text1 {<br>
                    0%{transform:translate(-100%,-100%)}/*postion:left100%,top100%.*/<br>
